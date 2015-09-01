@@ -1,14 +1,16 @@
+
+
 body{ 
 	color: white;
 	text-align: center;
 	background: black;
-	font-family: Helvetica;
+	font-family: 'Josefin Slab', serif;;
 }
 
 h1{
 	color: white;
 	text-align: center;
-	font-family: Helvetica;
+	font-family: 'Josefin Slab', serif;;
 	font-size: 50px;
 }
 
