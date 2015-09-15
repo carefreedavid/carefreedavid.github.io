@@ -1,0 +1,100 @@
+* {
+  -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+  -moz-box-sizing: border-box; /* Firefox ≤ 28 */
+  box-sizing: border-box; /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
+}
+
+body { 
+background: #F8F8F8 }
+
+h1 {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+h2 {
+	font-family: 'Lora', serif;
+
+}
+
+p{
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	border-bottom: 1px solid black;
+
+}
+
+h3{
+	text-align: center;
+}
+nav {
+	float: left;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+    color: #000000;
+  	margin: 1.8em;
+  	display: inline-block;
+  	text-align: center;
+}
+
+#select {
+	color: #3399FF;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+  	clear: both;
+  	border-top: solid 1px black;
+  	width: 100%;
+  	float: none;
+	}
+	
+#first {
+	display: inline-block;
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+#second {
+	display: inline-block;
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+#third {
+	display: inline-block;
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+#forth {
+	display: inline-block;
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+}
