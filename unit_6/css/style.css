@@ -47,6 +47,7 @@ nav a {
 
 nav a: hover
 { 
+	color: white;
 }
 
 #select {
@@ -94,4 +95,9 @@ footer {
 
 	img {
 		width: 100%;
+	}
+
+	@media screen only and (max-width: 480px){
+		float: none
+
 	}

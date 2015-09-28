@@ -102,3 +102,21 @@ footer {
 	padding: 1%;
 	text-align: center;
 }
+
+@media screen only and (max-width: 320){
+
+	body {
+		background-color: black;
+	}
+	#first, #second, #third, #forth {
+		float: none;
+		width: 100%;
+		display: inline;
+	}
+	h1{ 
+		width: 10%;
+	}
+	img{
+		width: 100%;
+	}
+}
