@@ -97,5 +97,16 @@ footer {
 		width: 100%;
 	}
 
-	
+@media screen and (max-width: 800px) {
+
+	#main {
+		float: none;
+		width: 100%;
+	}
+
+	#side {
+		float: none;
+		width: 100%;
+	}
+}
 
