@@ -97,28 +97,5 @@ footer {
 		width: 100%;
 	}
 
-	@media screen only and (max-width: 800px){
-			
-		#side {
-			float: none;
-			width: 100%;
-		}
-
-		#main {
-			float: none;
-			width: 100%;
-		}
-
-		#photo {
-			float: none;
-			width: 100%;
-		}
-
-		#brunch {
-			float: none;
-			width: 100%;
-		}
-		}
-
-	}
+	
 
