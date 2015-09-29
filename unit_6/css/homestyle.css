@@ -70,6 +70,14 @@ footer {
   	float: none;
 	}
 
+.colum {
+	display: inline-block;
+	width: 23%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+}
+
 #first {
 	display: inline-block;
 	width: 23%;
@@ -103,20 +111,9 @@ footer {
 	text-align: center;
 }
 
-@media screen only and (max-width: 320){
-
-	body {
-		background-color: black;
-	}
-	#first, #second, #third, #forth {
+@media screen and (max-width: 800px) {
+	.colum {
 		float: none;
-		width: 100%;
-		display: inline;
-	}
-	h1{ 
-		width: 10%;
-	}
-	img{
 		width: 100%;
 	}
 }
