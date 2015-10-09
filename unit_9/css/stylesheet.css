@@ -1,0 +1,39 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	text-align: justify;
+}
+
+#firtst {
+	background-color: blue;
+}
+
+a {
+	color: grey;
+}
+
+nav{
+	float: left;
+	font-family: 'Lora', serif;
+	font-size: 1.5em;
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+  	margin: 1.4em;
+  	display: inline-block;
+  	text-align: center;
+
+}
+
+a:hover {
+color: #660000;
+}
