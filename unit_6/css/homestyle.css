@@ -7,7 +7,7 @@
 
 
 body { 
-background: #F8F8F8; }
+background: #FFFFFA;} 
 
 p {
 	text-align: center;
@@ -50,6 +50,7 @@ nav {
 	font-size: 1.5em;
 	text-align: center;
 	width: 50%;
+	position: relative;
 }
 
 nav a {
@@ -63,19 +64,32 @@ nav a {
   	border-radius: 25px;
     border: 2px solid black;
     padding: 20px; 
-    width: 130px;
+    width: 115px;
     height: 15px;
 }
 
 nav a:hover
 {
-	color: white;
-	background-color: grey;
+	color: #F8F8F8;
+	background-color: black;
 }
 
 #select {
-	color: #3399FF;
+	color: #0052A3;
+	border-color: 
 }
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 
 img {
 	width: 100%;
@@ -138,9 +152,6 @@ footer {
     margin-right: auto;
 }
 
-#land{
-	background-color: white;
-}
 
 @media screen and (max-width: 800px) {
 	.colum {
