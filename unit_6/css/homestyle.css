@@ -4,6 +4,8 @@
   box-sizing: border-box; /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
 }
 
+
+
 body { 
 background: #F8F8F8 }
 
@@ -15,8 +17,9 @@ h1 {
 	font-family: 'Lora', serif;
 	font-size: 2em;
 	display: block;
-	text-align: center;
+	text-align: left;
 	width: 100%;
+	float: left;
 }
 
 h2 {
@@ -41,7 +44,7 @@ h3{
 	padding: 0%;
 }
 nav {
-	float: left;
+	float: right;
 	font-family: 'Lora', serif;
 	font-size: 1.5em;
 	text-align: center;
@@ -49,11 +52,24 @@ nav {
 }
 
 nav a {
+	float: right;
 	text-decoration: none;
     color: #000000;
   	margin: 1.8em;
   	display: inline-block;
   	text-align: center;
+  	margin-top: 20px;
+  	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 160px;
+    height: 15px;
+}
+
+nav a:hover
+{
+	color: white;
+	background-color: grey;
 }
 
 #select {
