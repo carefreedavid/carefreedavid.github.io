@@ -21,11 +21,13 @@ h1 {
 
 h2 {
 	font-family: 'Lora', serif;
+	padding: 1%;
 
 }
 
-p{
+p, figcaption{
 	text-align: justify;
+	padding: 1%;
 }
 
 h2 {
@@ -36,6 +38,7 @@ h2 {
 
 h3{
 	text-align: center;
+	padding: 0%;
 }
 nav {
 	float: left;
@@ -72,10 +75,10 @@ footer {
 
 .colum {
 	display: inline-block;
-	width: 23%;
+	width: 25%;
 	float: left;
 	margin: 0 auto;
-	padding: 1%;
+	padding: 0%;
 }
 
 #first {
