@@ -51,7 +51,7 @@ nav a {
   	border-radius: 25px;
     border: 2px solid black;
     padding: 20px; 
-    width: 115px;
+    width: 18%;
     height: 15px;
 }
 
@@ -112,6 +112,41 @@ footer {
 	}
 
 	img {
+		width: 100%;
+	}
+
+@media screen and (max-width: 1000px) {
+	.colum {
+		float: none;
+		width: 100%;
+	}
+
+	nav {
+		float: right;
+		border: none;
+		width: 100%;
+	}
+
+	nav a{
+		float: left;
+		display: inline;
+		text-align: center;
+		border: none;
+
+	}
+
+	h1{ 
+		width: 100%;
+		text-align: center;
+	}
+
+	#main {
+		float: none;
+		width: 100%;
+	}
+
+	#side {
+		float: none;
 		width: 100%;
 	}
 

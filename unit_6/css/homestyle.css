@@ -65,7 +65,7 @@ nav a {
   	border-radius: 25px;
     border: 2px solid black;
     padding: 20px; 
-    width: 20%;
+    width: 18%;
     height: 15px;
 }
 
@@ -108,14 +108,20 @@ footer {
   	display: inline-block;
 	}
 
-#footer {
-	width: 70%;
+#contact {
+	width: 50%;
+	display: inline-block;
+	float: left;
 }
 
-#footnav {
-	width: 20%;
-
+#top {
+	width: 50%;
+	display: inline-block;
+	float: right;
+	height: 73px;
+	vertical-align: center;
 }
+
 
 .colum {
 	display: inline-block;
@@ -163,9 +169,8 @@ footer {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    heigth: 700px;
 }
-
-
 
 
 @media screen and (max-width: 800px) {
@@ -204,3 +209,4 @@ footer {
 	}
 
 }
+
