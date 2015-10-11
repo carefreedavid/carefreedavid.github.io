@@ -12,10 +12,11 @@ h1 {
 	font-family: 'Lora', serif;
 	font-size: 2em;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 	float: left;
 	width: 50%;
+	padding-left: 0%;
 }
 
 p{
@@ -56,8 +57,8 @@ nav a {
 
 nav a:hover
 {
-	color: #F8F8F8;
-	background-color: black;
+	color: #1A1A14;
+	background-color: white;
 }
 
 #select {
@@ -95,15 +96,19 @@ div {
 	float: right;
 	padding: 1%;
 	padding-left: 2%;
+	text-align: center;
 }
 
 footer {
-	text-align: center;
+	font-family: 'Lora', serif;
+	text-align: left;
+	font-size: 15px;
 	padding: 1em 0;
   	clear: both;
   	border-top: solid 1px black;
   	width: 100%;
   	float: none;
+  	text-decoration: bold;
 	}
 
 	img {

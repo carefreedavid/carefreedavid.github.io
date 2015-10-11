@@ -17,10 +17,11 @@ h1 {
 	font-family: 'Lora', serif;
 	font-size: 2em;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 	float: left;
 	width: 50%;
+	
 }
 
 h2 {
@@ -70,8 +71,8 @@ nav a {
 
 nav a:hover
 {
-	color: #F8F8F8;
-	background-color: black;
+	color: #1A1A14;
+	background-color: white;
 }
 
 #select {
@@ -102,7 +103,19 @@ footer {
   	border-top: solid 1px black;
   	width: 100%;
   	float: none;
+  	text-align: center;
+  	font-size: 1.2em;
+  	display: inline-block;
 	}
+
+#footer {
+	width: 70%;
+}
+
+#footnav {
+	width: 20%;
+
+}
 
 .colum {
 	display: inline-block;
@@ -146,11 +159,13 @@ footer {
 }
 
 #home {
-	width: 40%;
+	width: 42%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -158,4 +173,34 @@ footer {
 		float: none;
 		width: 100%;
 	}
+
+	nav {
+		float: right;
+		border: none;
+		width: 100%;
+	}
+
+	nav a{
+		float: left;
+		display: inline;
+		text-align: center;
+		border: none;
+
+	}
+
+	h1{ 
+		width: 100%;
+		text-align: center;
+	}
+
+	#main {
+		float: none;
+		width: 100%;
+	}
+
+	#side {
+		float: none;
+		width: 100%;
+	}
+
 }
