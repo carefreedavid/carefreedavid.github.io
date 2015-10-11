@@ -5,15 +5,17 @@
 }
 
 body { 
-background: #F8F8F8 }
+background: #FFFFFA; }
+
 
 h1 {
 	font-family: 'Lora', serif;
 	font-size: 2em;
-	display: block;
-	text-align: center;
+	display: inline-block;
+	text-align: left;
 	width: 100%;
-
+	float: left;
+	width: 50%;
 }
 
 p{
@@ -29,29 +31,38 @@ h3{
 	text-align: center;
 }
 nav {
-	float: left;
+	float: right;
 	font-family: 'Lora', serif;
 	font-size: 1.5em;
 	text-align: center;
-	width: 100%;
+	width: 50%;
+	position: relative;
 }
 
 nav a {
+	float: right;
 	text-decoration: none;
     color: #000000;
   	margin: 1.8em;
   	display: inline-block;
   	text-align: center;
-
+  	margin-top: 20px;
+  	border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 115px;
+    height: 15px;
 }
 
-nav a: hover
-{ 
-	color: white;
+nav a:hover
+{
+	color: #F8F8F8;
+	background-color: black;
 }
 
 #select {
-	color: #3399FF;
+	color: #0052A3;
+	border-color: 
 }
 
 div {
@@ -82,6 +93,8 @@ div {
 	width:60%;
 	margin: 0 auto;
 	float: right;
+	padding: 1%;
+	padding-left: 2%;
 }
 
 footer {
