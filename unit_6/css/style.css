@@ -171,18 +171,22 @@ footer {
 	}
 
 	nav {
-		float: right;
+		float: rigth;
+		display: inline;
 		border: none;
 		width: 100%;
+		text-align: center;
+		margin: 0 auto;
 	}
 
 	nav a{
-		float: left;
-		display: inline;
+		float: none;
+		display: inline-block;
 		text-align: center;
 		border: none;
-
-	}
+		color: black;
+		width: 10%;
+		margin: 0 auto;
 
 	h1{ 
 		width: 100%;
@@ -198,5 +202,14 @@ footer {
 		float: none;
 		width: 100%;
 	}
+
+#header {
+	background-color: #FFE6E6;
+	color: white;
+	height: 100px;
+	width: 100%;
+	padding: 0;
+	margin: auto;
+}
 
 }
