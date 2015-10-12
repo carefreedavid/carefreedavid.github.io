@@ -5,7 +5,7 @@
 }
 
 body { 
-background: #FFFFFA; }
+background: white; }
 
 
 h1 {
@@ -17,6 +17,13 @@ h1 {
 	float: left;
 	width: 50%;
 	padding-left: 0%;
+}
+
+#header {
+	background-color: #FFE6E6;
+	color: white;
+	height: 80px;
+	width: 100%;
 }
 
 p{
@@ -31,10 +38,11 @@ h2 {
 h3{
 	text-align: center;
 }
+
 nav {
 	float: right;
 	font-family: 'Lora', serif;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	text-align: center;
 	width: 50%;
 	position: relative;
@@ -43,21 +51,21 @@ nav {
 nav a {
 	float: right;
 	text-decoration: none;
-    color: #000000;
+    color: white;
   	margin: 1.8em;
   	display: inline-block;
   	text-align: center;
   	margin-top: 20px;
   	border-radius: 25px;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 20px; 
-    width: 18%;
+    width: 15%;
     height: 15px;
 }
 
 nav a:hover
 {
-	color: #1A1A14;
+	color: #FFE6E6;
 	background-color: white;
 }
 
