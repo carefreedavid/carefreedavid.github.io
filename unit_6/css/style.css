@@ -164,33 +164,42 @@ footer {
 		width: 100%;
 	}
 
-@media screen and (max-width: 800px) {
+
+@media screen and (min-width: 800px) {
 	.colum {
 		float: none;
 		width: 100%;
 	}
 
 	nav {
-		float: rigth;
-		display: inline;
+		float: none;
 		border: none;
 		width: 100%;
-		text-align: center;
 		margin: 0 auto;
+
 	}
 
 	nav a{
-		float: none;
-		display: inline-block;
+		float: left;
+		display: inline;
 		text-align: center;
 		border: none;
 		color: black;
 		width: 10%;
-		margin: 0 auto;
+	}
+
+	ul {
+		text-align: center;
+	}
+
+	li {
+		text-align: center;
+	}
 
 	h1{ 
 		width: 100%;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	#main {
@@ -203,13 +212,75 @@ footer {
 		width: 100%;
 	}
 
-#header {
+	#header {
 	background-color: #FFE6E6;
 	color: white;
 	height: 100px;
 	width: 100%;
 	padding: 0;
 	margin: auto;
+	}
+
+	footer
+	{
+		font-size: 0.7em;
+		text-align: center;
+	}
+
 }
+
+@media screen and (max-width: 800px) {
+	.colum {
+		float: none;
+		width: 100%;
+	}
+
+	nav {
+		float: right;
+		border: none;
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+	nav a{
+		float: left;
+		display: inline;
+		text-align: center;
+		border: none;
+		color: black;
+		width: 10%;
+	}
+
+	h1{ 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#main {
+		float: none;
+		width: 100%;
+	}
+
+	#side {
+		float: none;
+		width: 100%;
+	}
+
+	#header {
+	background-color: #FFE6E6;
+	color: white;
+	height: 100px;
+	width: 100%;
+	padding: 0;
+	margin: auto;
+	}
+
+	footer
+	{
+		font-size: 0.7em;
+		text-align: center;
+	}
 
 }
