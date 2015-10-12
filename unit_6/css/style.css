@@ -39,6 +39,7 @@ h3{
 	text-align: center;
 }
 
+
 nav {
 	float: right;
 	font-family: 'Lora', serif;
@@ -58,9 +59,8 @@ nav a {
   	margin-top: 20px;
   	border-radius: 25px;
     border: 2px solid white;
-    padding: 20px; 
-    width: 15%;
-    height: 15px;
+    padding: 5px 10px; 
+    
 }
 
 nav a:hover
@@ -69,10 +69,16 @@ nav a:hover
 	background-color: white;
 }
 
-#select {
-	color: #0052A3;
-	border-color: 
+
+
+ul{
+	margin-top: 0;
 }
+
+li{
+	list-style: none;
+}
+
 
 div {
 	display: block;

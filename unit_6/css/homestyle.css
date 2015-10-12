@@ -29,6 +29,7 @@ h1 {
 	color: white;
 	height: 80px;
 	width: 100%;
+	padding: 0;
 }
 
 h2 {
@@ -44,7 +45,9 @@ p, figcaption{
 
 h2 {
 	text-align: center;
-	border-bottom: 1px solid black;
+	color: white;
+	background-color: #FFE6E6;
+	outline-color: black;
 
 }
 
@@ -71,9 +74,8 @@ nav a {
   	margin-top: 20px;
   	border-radius: 25px;
     border: 2px solid white;
-    padding: 20px; 
-    width: 15%;
-    height: 15px;
+    padding: 5px 10px; 
+    
 }
 
 nav a:hover
@@ -82,10 +84,22 @@ nav a:hover
 	background-color: white;
 }
 
-#select {
-	color: #0052A3;
-	border-color: 
+
+
+ul{
+	margin-top: 0;
 }
+
+li{
+	list-style: none;
+}
+
+a:active {
+	color: #FFE6E6;
+	background-color: white;
+}
+
+
 
 div.container4 {
     height: 10em;
@@ -126,6 +140,7 @@ footer {
 	display: inline-block;
 	float: right;
 	height: 73px;
+	margin-top: auto;
 }
 
 
@@ -175,16 +190,23 @@ footer {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
     heigth: 700px;
     font-family: fancy;
     text-align: center;
     border: none;
+    margin-top: 5%;
 }
 
 #home > h2 {
-	text-align: center;
+	margin-left: auto;	
+	margin-right: auto;
 	display: block;
 	border: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.7em;
+	background-color: white;
+	color: black;
 
 }
 
