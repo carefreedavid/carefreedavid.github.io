@@ -4,8 +4,6 @@
   box-sizing: border-box; /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
 }
 
-
-
 body { 
 background: white;} 
 
@@ -31,20 +29,15 @@ h1 {
 	width: 100%;
 	padding: 0;
 	margin: auto;
+	
+
 }
 
 h2 {
-	font-family: 'Lora', serif;
+	font-family: 'Dancing Script', cursive;
 	padding: 1%;
-
-}
-
-p, figcaption{
-	text-align: justify;
-	padding: 1%;
-}
-
-h2 {
+	font-size: 2em;
+	text-align: center;
 	text-align: center;
 	color: white;
 	background-color: #FFE6E6;
@@ -52,10 +45,29 @@ h2 {
 
 }
 
+#home > h2 {
+	margin-left: auto;	
+	margin-right: auto;
+	display: block;
+	float: none;
+	border: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.7em;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
 h3{
 	text-align: center;
 	padding: 0%;
 }
+
+p, figcaption{
+	text-align: justify;
+	padding: 1%;
+}
+
 nav {
 	float: right;
 	font-family: 'Lora', serif;
@@ -63,6 +75,7 @@ nav {
 	text-align: center;
 	width: 50%;
 	position: relative;
+
 }
 
 nav a {
@@ -86,7 +99,6 @@ nav a:hover
 }
 
 
-
 ul{
 	margin-top: 0;
 }
@@ -100,35 +112,25 @@ a:active {
 	background-color: white;
 }
 
-
-
-div.container4 {
-    height: 10em;
-    position: relative }
-div.container4 p {
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-
 img {
 	width: 100%;
 }
 
 footer {
+	background-color: #FFE6E6;
+	color: white;
 	text-align: center;
 	padding: 1em 0;
   	clear: both;
   	border-top: solid 1px black;
   	width: 100%;
+  	height:80px;
   	float: none;
   	text-align: center;
   	font-size: 1.2em;
   	display: inline-block;
 	}
+
 
 #contact {
 	width: 50%;
@@ -137,10 +139,10 @@ footer {
 }
 
 #top {
-	width: 50%;
+	width: 40px;
 	display: inline-block;
 	float: right;
-	height: 73px;
+	height: 40px;
 	margin-top: auto;
 }
 
@@ -164,23 +166,17 @@ footer {
     border: none;
    }
 
-#home > h2 {
-	margin-left: auto;	
-	margin-right: auto;
-	display: block;
-	float: none;
-	border: white;
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.7em;
-	background-color: white;
-	color: black;
 
+
+
+@media screen and (max-width: 1221px) {
+	nav a {
+		width: 15%;
+		font-size: .8em
+	}
 }
 
-
-
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1120px) {
 	.colum {
 		float: none;
 		width: 100%;
@@ -200,8 +196,8 @@ footer {
 		border: none;
 		color: black;
 		width: 10%;
-
 	}
+
 
 	h1{ 
 		width: 100%;
@@ -239,13 +235,12 @@ footer {
 	font-size: 1.2em;
 	background-color: white;
 	color: black;
-
 }
 
-footer
-	{
-		font-size: 0.7em;
-		text-align: center;
-	}
+#top {
+	width: 20px;
+	height: 20px;
+}
+
 
 }

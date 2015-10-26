@@ -1,0 +1,11 @@
+body {
+background-color: #231F20;
+}
+
+img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
