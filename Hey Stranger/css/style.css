@@ -1,3 +1,92 @@
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: white;
+}
+
+.container {
+  width: 25em;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0.5em 0;
+  float: left;
+  clear: both;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+.row:first-child {
+  background: white;
+  padding: 0.5em 0;
+  border-radius: 8px;
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.row:first-child i {
+  border-right: 1px solid #white;
+  border-left: 1px solid #white;
+  padding: 0.5em 1em;
+  margin: 0;
+  text-shadow: 1px 1px 0 white;
+}
+.row:first-child i:hover {
+  color: #34495e !important;
+}
+
+.row {
+  background: transparent;
+}
+.row i {
+  color: #34495e;
+  border: 2px solid transparent;
+  border-radius: 0%;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.row i:hover {
+  top: -2px;
+  border-radius: 50%;
+}
+.row i:not(:first-child) {
+  margin-left: 1em;
+}
+.row i:nth-child(1) {
+  color: #3b5998;
+  border-bottom-color: #3b5998;
+}
+.row i:nth-child(2) {
+  color: #00a0d1;
+  border-bottom-color: #00a0d1;
+}
+.row i:nth-child(3) {
+  color: #db4a39;
+  border-bottom-color: #db4a39;
+}
+.row i:nth-child(4) {
+  color: #c8232c;
+  border-bottom-color: #c8232c;
+}
+.row i:nth-child(5) {
+  color: #ea4c89;
+  border-bottom-color: #ea4c89;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -46,28 +135,4 @@ nav {
 	width: 50%;
 	position: relative;
 
-}
-
-nav a {
-	  float: right;
-	  text-decoration: none;
-    color: black;
-  	margin: 1.8em;
-  	display: inline-block;
-  	text-align: center;
-  	margin-top: 20px;
-  	border-radius: 25px;
-    border: 2px solid white;
-    padding: 5px 10px;
-
-}
-
-nav a:hover
-{
-	color: #FFE6E6;
-	background-color: white;
-}
-
-nav li {
-  text-decoration: none;
 }
