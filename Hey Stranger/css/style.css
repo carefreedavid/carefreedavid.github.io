@@ -124,6 +124,9 @@ p
   width: 25%;
 }
 
+.bottom {
+  margin-bottom: 0%;
+}
 nav {
 	float: right;
 	font-family: 'Lora', serif;
